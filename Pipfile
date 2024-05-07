@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+langchain = "*"
+langserve = {extras = ["all"], version = "*"}
+langchain-openai = "*"
+langchain-community = "*"
+langchain-cli = "*"
+rich = "*"
+pypdf = "*"
+langchain-chroma = "*"
+chromadb = "*"
+fastapi = "*"
+python-multipart = "*"
+langchainhub = "*"
+supabase = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.7"
